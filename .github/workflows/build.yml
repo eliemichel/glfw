@@ -1,8 +1,8 @@
 name: Build
 on:
-    pull_request:
-    push:
-        branches: [ ci, master, latest, 3.3-stable ]
+    #pull_request:
+    #push:
+    #    branches: [ ci, master, latest, 3.3-stable ]
     workflow_dispatch:
 permissions:
     statuses: write
